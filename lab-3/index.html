@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+        body {
+            font-family: 'Caveat', cursive;
+            margin: 20px;
+            background-color: #f0f9eb; /* Soft green background for a natural feel */
+            color: #001F3F; /* Dark blue color for emphasis */
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: normal; /* Make heading text normal weight for a casual look */
+            background-color: #4CAF50; /* Green color for the background of h1 */
+            color: #FF5733; /* Orange color for the text in h1 */
+            padding: 20px; /* Add padding for better visual appearance */
+            text-align: center; /* Center the text */
+            border-radius: 15px; /* Rounded corners for a unique style */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-top: 20px; /* Space between paragraphs */
+        }
+
+        footer {
+            background-color: #4CAF50; /* Green color for the footer */
+            color: #001F3F; /* Dark blue color for the text in the footer */
+            text-align: center; /* Center the text */
+            padding: 10px; /* Add padding for better visual appearance */
+            margin-top: 20px; /* Space between content and footer */
+            border-top: 2px solid #001F3F; /* Border separating content and footer */
+        }
+
+        .highlight {
+            color: #FF5733; /* Highlight color for certain elements */
+            font-weight: bold;
+        }
+    </style>
+    <title>Sai Prathusha Sama</title>
+</head>
+<body>
+    <!-- Your content goes here -->
+    <h1>Welcome to My <span class="highlight">Unique</span> and "Caveat" Font Webpage!</h1>
+    <hr /><p>The text describes an example paragraph using the "Caveat" font, emphasizing its handwritten and informal style that adds a personalized touch to the text. The choice of font is highlighted as a means to create a more engaging and individualized reading experience.</p><hr />
+    <hr /><p>This HTML code defines a simple and visually appealing webpage. The document begins with the standard HTML5 structure, including metadata for character set and viewport settings. The page incorporates a custom font, 'Caveat,' from Google Fonts, giving it a handwritten and casual feel. The overall design features a soft green background (#f0f9eb) for a natural ambiance and dark blue text color (#001F3F) for emphasis. The webpage includes a centered and styled h1 heading with a green background, orange text color, padding, rounded corners, and a subtle box shadow for a unique appearance. Paragraphs (p) have specified font size, line height, and margin-top for readability and aesthetic spacing. Additionally, a styled footer with a green background, dark blue text, padding, and a top border serves as a separation between the content and footer.
+
+        The content within the body includes a welcoming h1 heading that uses a highlighted span for emphasis, creating a personalized touch. A set of paragraphs follows, explaining the usage of the "Caveat" font, detailing the HTML code's overview, and summarizing the webpage's aim to provide a visually pleasing and personalized user experience. The message "Thank you for visiting! Stay pawsome!" is included to add a friendly and playful touch to the content. The webpage dynamically displays the last modified date in the footer using JavaScript, enhancing interactivity and information for visitors. Overall, the webpage combines structural elements, styling, and dynamic features to create a visually engaging and unique user experience.</p><hr />
+    <p>Thank you for visiting! <span class="highlight">Stay pawsome!</span></p>
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
