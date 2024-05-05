@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Lights Out Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- External CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Lights Out Game</h1>
+        <img src="https://png.pngtree.com/background/20231030/original/pngtree-cartoon-illustration-of-a-young-gamer-engrossed-in-playing-video-game-picture-image_5790307.jpg" alt="Game Image" width="350" height="250">
+        <p class="game-instructions">
+            Lights Out is a puzzle game where the goal is to turn off all the lights. 
+            Clicking on a square will toggle its state, as well as the state of adjacent squares.
+            Keep playing until you illuminate every square!
+        </p>
+        <div class="board" id="board"></div>
+        <button id="restartButton">Restart Game</button>
+        <p class="exit-instruction">Keep playing until you illuminate every square!</p>
+    </div>
+    <footer>
+        <div>
+            <h2>Addendum:</h2>
+        <p>The HTML markup sets up the foundation of the Lights Out game, defining key elements like the game board, restart button, and instructions. It also incorporates a visually engaging image to enhance the gaming experience. The CSS styling not only adds aesthetic appeal but also ensures a cohesive design language throughout the webpage, including responsive design principles for optimal viewing across devices.
+
+            JavaScript plays a pivotal role in orchestrating the game's functionality. It dynamically generates the game board, assigns event listeners to each square for interactive gameplay, and manages the game's logic, such as toggling square states and checking win conditions. The shuffle functionality adds an element of randomness to the game, increasing replay value and challenge.
+            
+            Furthermore, the JavaScript code implements best practices such as modularization and event-driven programming, enhancing code readability, scalability, and maintenance. The inclusion of the last modified date in the footer adds a layer of information for users.
+            
+            Overall, this integrated approach of HTML, CSS, and JavaScript results in an immersive and enjoyable Lights Out game that combines visual appeal with responsive design and robust functionality.</p>
+        </div>
+            <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+    <!-- JavaScript code -->
+    <script src="script.js"></script>
+</body>
+</html>
